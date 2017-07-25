@@ -4,7 +4,7 @@ var reponse=["comment ca va..?",
 "tu rentre à quelle heure",
 "elle sera pas fraiche",
 "ok à tout à l'heure"];
-var x= 0;
+var x=-1;
 
   $(".button").click(function(){
 
