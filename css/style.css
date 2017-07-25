@@ -29,19 +29,27 @@ body{
 .blocMessage{
 
   width: 50%;
-  height: 150px;
+  height: 100px;
   margin-left:25%;
   border: 1px solid black;
   border-radius: 10px;
 }
-textarea{
-  float: left;
-  margin-left: 23%;
-  margin-top: 10px;
+input{
+  width: 60%;
+  margin: 40px 5% 0px 20%;
 }
+
 img{
   width: 30px;
   height:30px;
-  float: right;
-  margin: 15px;
+
+}
+@media screen and (max-width: 1020px){
+  #ecran{
+    height: 200px;
+  }
+  img{
+    width: 20px;
+    height: 20px;
+  }
 }
